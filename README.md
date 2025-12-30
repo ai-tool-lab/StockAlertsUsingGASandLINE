@@ -21,6 +21,7 @@ LINEに通知する Google Apps Script アプリです。
 
 ## Architecture
 
+```text
 Google Spreadsheet
 ├─ WATCH（監視設定）
 ├─ LOG（実行ログ）
@@ -28,7 +29,7 @@ Google Spreadsheet
 │
 ├─ Yahoo Finance（終値取得）
 └─ LINE Messaging API（通知）
-
+```
 
 ---
 
